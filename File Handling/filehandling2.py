@@ -1,6 +1,7 @@
 
 from pathlib import Path
 import os
+
 def readpathandfile():
     path = Path('')
     items = list(path.rglob('*'))
@@ -10,7 +11,6 @@ def readpathandfile():
 
 
 def createfile():
- 
     readpathandfile()
     name = input("Enter File Name:- ")
     p = Path(name)
