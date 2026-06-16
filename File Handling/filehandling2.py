@@ -60,7 +60,7 @@ def updatefile():
         elif res == 3:
             with open(p , 'a') as fs:
                 data = input("Enter the appending data:- ")
-                fs.write(" "+data)
+                fs.write(" "+ data)
 
 def deletefile():
     readpathandfile()
